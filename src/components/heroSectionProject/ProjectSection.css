@@ -1,0 +1,48 @@
+.container-portfolio{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.3rem;
+    background-color: black;
+}
+.title-portfolio{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: white;
+}
+
+.portfolio{
+    width: 85%;
+    height: auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 340px;
+    height: 340px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.card h5 {
+    margin-top: 8px;
+    color: aquamarine;
+}

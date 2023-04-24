@@ -1,0 +1,38 @@
+.heroContact{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: calc(70vh - 30px);
+    background: no-repeat center /cover url("/src/components/heroContact/contact.jpg");
+    color: white !important;
+}
+.container-homeSectionContact{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentContact h1{
+    font-size: 1.4rem;
+}
+.contentContact p {
+    font-size: 1.1rem;
+}
+.contentContact a {
+    color: orangered;
+    font-size: 1.1rem;
+}
+.contentContact  span {
+    color: rgb(86, 86, 86);
+}

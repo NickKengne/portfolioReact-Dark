@@ -1,0 +1,93 @@
+
+
+.container-about{
+    position: relative;
+    width:100%;
+    background-color: black;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    position: relative;
+    
+}
+h4::before{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #6d00bb;
+    position: absolute;
+    top: 0px;
+    left: -55px;
+    
+}
+h4::after{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: orangered;
+    position: absolute;
+    top: 4px;
+    left: -55px; 
+}
+
+.about-me{
+    position: relative;
+    width: 98%;
+    max-width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.picture{
+    width: 300px;
+    height: 300px;
+    background: no-repeat center / cover url("/src/components/heroSectionAbout/racoon.svg");
+    border-radius: 4px;
+
+}
+.textAbout{
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    color: rgba(255, 255, 255, 0.679);
+}
+.liste-skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills{
+    margin-left: .6rem;
+}
+.me{
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.679);
+    margin-top: .9rem;
+}
+.textAbout h1{
+    color: #6d00bb;
+}
+
+.textAbout h3{
+    margin-top: .9rem;
+    color: #6d00bb;
+}
+
+.liste-skills li  {
+    color: white;
+}
+.liste-skills li span {
+    color: orangered;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+

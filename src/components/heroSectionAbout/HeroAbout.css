@@ -1,0 +1,38 @@
+.heroAbout{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: calc(70vh - 30px);
+    background: no-repeat center /cover url("/src/components/heroSectionAbout/about.jpg");
+    color: white !important;
+}
+.container-homeSectionAbout{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentAbout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentAbout h1{
+    font-size: 1.4rem;
+}
+.contentAbout p {
+    font-size: 1.1rem;
+}
+.contentAbout a {
+    color: #6d00bb;
+    font-size: 1.1rem;
+}
+.contentAbout  span {
+    color: rgb(86, 86, 86);
+}

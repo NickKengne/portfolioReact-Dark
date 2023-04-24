@@ -1,0 +1,29 @@
+
+.footer{
+    width: 100vw;
+    height: 150px;
+    background:no-repeat center / cover url("/public/videos/home.gif");
+    color: #ffffff9d;
+    position: relative;
+}
+
+.footer-container{
+    width: 100%;
+    height: 100%;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+.footer-left a {
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+.footer-left a span{
+    font-size: 1.4rem;
+    color: #6d00bb;
+}
+
