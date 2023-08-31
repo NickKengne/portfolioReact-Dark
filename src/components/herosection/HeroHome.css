@@ -1,5 +1,5 @@
 .heroHome{
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
@@ -11,11 +11,13 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.355);
+    background: rgba(0, 0, 0, 0.534);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 100px;
+    padding-top: 90px;
 }
 .content{
     display: flex;
@@ -35,21 +37,24 @@
     justify-content: space-around;
     align-items: center;
     margin-top: .9rem;
-    width: 250px;
+    width: 270px;
 
 }
 
 .btn-1{
     padding: 8px 20px;
-    background: linear-gradient(to left , transparent 50% , orangered 50%);
+    background: linear-gradient(to left , transparent 50% , #F2E96D 50%);
     background-size: 200%;
-    box-shadow: 0 0 10px rgba(255, 68, 0, 0.742);
-    color: white;
+    box-shadow: 0 0 10px rgba(255, 230, 0, 0.742);
+    color: black;
+    font-weight: 600;
     transition: all .4s ease-out;
 }
 .btn-1:hover{
+    box-shadow: 0 0 10px rgba(209, 209, 209, 0.742);
     border: 1px solid white;
     background-position: 100%;
+    color: white;
 }
 .btn-2{
     padding: 8px 20px;
@@ -62,6 +67,7 @@
 .btn-2:hover{
     border: none;
     background-position: 100%;
+    cursor: pointer;
 }
 .socialNetwork{
     display: flex;
@@ -70,5 +76,41 @@
     top: 96%;
     left: 25px;
     transform: translate(0 , -96%);
+}
+.picture_home{
+    width: 150px;
+    height: 150px;
+    border-radius: 9999px;
+    background: no-repeat left / cover url('../../../public/ng.png');
+    position: absolute;
+    top: 96%;
+    right: 25px;
+    transform: translate(0 , -96%);
+}
+.overlay_pict{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.644);
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease-out;
+}
+.overlay_pict:hover{
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 672px) {
+    .container-homeSection{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        padding-top: 0px;
+        align-items: center;
+        display: flex;
+        gap: 30px;
+    }
 }
 

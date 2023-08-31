@@ -27,7 +27,7 @@
 }
 .header p span {
     font-size: 1.8rem;
-    color: orangered;
+    color: #F2E96D;
 }
 .liste-nav {
     position: relative;
@@ -47,8 +47,9 @@
     bottom: -7px;
     content: "";
     width: 0;
+    margin: 0 auto;
     height: 2px;
-    background-color: orangered;
+    background-color: #F2E96D;
     transition: all .4s ease-out;
 }
 .liste-nav li a:hover::before{
