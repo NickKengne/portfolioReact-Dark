@@ -15,14 +15,15 @@ const ContainerAbout = () => {
             <p className='me' id='name'>Hi, je suis Nick Dibrilain , j'ai 20 ans et je suis Developpeur web et freelancer.j'aime l'esprit de challenge face aux differents projets que j'ai eu à realiser. La satisfaction de mes clients , me rend tout d'abord encore plus fier. J'ai pas mal de projet front et back-end.</p>
             <h3>Mes skills : </h3>
             <ul className="liste-skills">
-              <li className="skills">Html <span id='name'>90%</span></li>
-              <li className="skills">CssFlexbox <span id='name'>95%</span></li>
-              <li className="skills">Javascript <span id='name'>65%</span></li>
-              <li className="skills">ReactJs  <span id='name'>75%</span></li>
-              <li className="skills">React Native <span id='name'>80%</span></li>
-              <li className="skills">Php <span id='name'>65%</span></li>
-              <li className="skills">Sql <span id='name'>60%</span></li>
-              <li className="skills">Bootstrapp <span id='name'>75%</span></li>
+              <li className="skills">*Html <span id='name'>90%</span></li>
+              <li className="skills">*CssFlexbox <span id='name'>95%</span></li>
+              <li className="skills">*Javascript <span id='name'>65%</span></li>
+              <li className="skills">*ReactJs  <span id='name'>85%</span></li>
+              <li className="skills">*React Native <span id='name'>80%</span></li>
+              <li className="skills">*Php <span id='name'>45%</span></li>
+              <li className="skills">*Sql <span id='name'>80%</span></li>
+              <li className="skills">*MongoDB <span id='name'>80%</span></li>
+              <li className="skills">*NodeJs Express For Api <span id='name'>80%</span></li>
             </ul>
             <h3>Localisation:</h3>
               Douala, Cameroun Oyack Bassa 

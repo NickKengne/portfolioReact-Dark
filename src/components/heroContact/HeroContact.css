@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: calc(70vh - 30px);
+    height: calc(50vh - 30px);
     background: no-repeat center /cover url("/src/components/heroContact/contact.jpg");
     color: white !important;
 }

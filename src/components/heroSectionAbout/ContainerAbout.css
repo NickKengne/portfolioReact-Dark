@@ -31,7 +31,7 @@ h4::after{
     content: "";
     width: 40px;
     height: 2px;
-    background-color: orangered;
+    background-color: #F2E96D;
     position: absolute;
     top: 4px;
     left: -55px; 
@@ -42,23 +42,23 @@ h4::after{
     width: 98%;
     max-width: 950px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     flex-grow: 1;
 }
 .picture{
-    width: 300px;
-    height: 300px;
-    background: no-repeat center / cover url("/src/components/heroSectionAbout/racoon.svg");
-    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    background: no-repeat center / cover url("../../../public/ng.png");
 
 }
 .textAbout{
     position: relative;
     width: 90%;
     max-width: 600px;
-    color: rgba(255, 255, 255, 0.679);
+    color: rgb(255, 255, 255);
 }
 .liste-skills{
     display: flex;
@@ -68,24 +68,24 @@ h4::after{
     margin-left: .6rem;
 }
 .me{
-    text-align: justify;
-    color: rgba(255, 255, 255, 0.679);
+    color: rgb(255, 255, 255);
     margin-top: .9rem;
+    margin-left: .7rem;
 }
 .textAbout h1{
-    color: #6d00bb;
+    color: #F2E96D;
 }
 
 .textAbout h3{
     margin-top: .9rem;
-    color: #6d00bb;
+    color: #959496;
 }
 
 .liste-skills li  {
     color: white;
 }
 .liste-skills li span {
-    color: orangered;
+    color: #F2E96D;
     font-weight: bold;
     margin-left: 2px;
 }
