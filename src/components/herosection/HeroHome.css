@@ -78,28 +78,17 @@
     transform: translate(0 , -96%);
 }
 .picture_home{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 9999px;
-    background: no-repeat left / cover url('../../../public/ng.png');
+    overflow: "hidden";
+    background: no-repeat left / cover url('../../components//heroSectionAbout/racoon.svg');
     position: absolute;
-    top: 96%;
-    right: 25px;
-    transform: translate(0 , -96%);
+    top: 94%;
+    right: 20px;
+    transform: translate(0 , -94%);
 }
-.overlay_pict{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.644);
-    width: 100%;
-    height: 100%;
-    transition: all 0.4s ease-out;
-}
-.overlay_pict:hover{
-    background-color: rgba(0, 0, 0, 0);
-    cursor: pointer;
-}
+
 
 @media screen and (max-width: 672px) {
     .container-homeSection{

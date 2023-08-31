@@ -97,7 +97,7 @@ const HeroHome = () => {
           <a href='www.google.com'><TiSocialInstagram size={22} style={{ color: "white" }} /></a>
         </div>
         <div className="picture_home" id='pict'>
-            <div className='overlay_pict'></div>
+            
         </div>
 
       </div>
